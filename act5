@@ -1,0 +1,26 @@
+package javahomework;
+import java.util.Scanner;
+
+/** *
+ * @author PWNISHER
+ */
+public class javaAct5 {
+public static Scanner sc= new Scanner(System.in);    
+public static void main(String[] args){
+     double numX;
+     double numY;
+    
+    System.out.println("Introdusca el valor de x: ");
+    numX=sc.nextDouble();
+    System.out.println("Introdusca el valor de y: ");
+    numY=sc.nextDouble();
+    System.out.println("Las operaciones seran realizadas con los valores x:" + numX + " y: "+ numY);
+    System.out.println("Suma: "+(numX+numY));
+    System.out.println("Resta: "+(numX-numY));
+    System.out.println("Multiplicacion: "+(numX*numY));
+    System.out.println("Division: "+(numX/numY));
+    System.out.println("Modulo: "+(numX%numY));
+    
+}
+    
+}
